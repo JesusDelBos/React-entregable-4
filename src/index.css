@@ -18,17 +18,17 @@ form {
   background-color: rgb(43, 226, 43);
   border-radius: 20px;
 }
-/*
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
-}*/
+}
 
 .input-inline {
-  /*display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center;*/
+  align-items: center;
 }
 
 button {
