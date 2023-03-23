@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+form {
+  width: 350px;
+  border: 1px solid grey;
+  padding: 1.5rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.input-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+  border: 1px solid grey;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+li > h4 {
+  font-weight: 400;
+}
+li span {
+  font-weight: bold;
+}
+
+.product__form{
+  margin-left: 30%;
+}
+
+.product__list{
+  display: flex;
+  grid-template-columns: 1fr, 1fr, 1fr;
+
+}
+
+.box__list{
+  width: 300px;
+  height: 150px ;
+  margin: 2rem, 1rem;
+}
