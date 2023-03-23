@@ -43,7 +43,7 @@ const ProductsForm = ( { createUser, selectedUser, updateUser } ) => {
     
     return (
         <div className="product__form">
-            <form onSubmit={ handleSubmit( submit ) }>
+            <form className='form-box' onSubmit={ handleSubmit( submit ) }>
                 <div className="input-wrapper">
                     <label 
                     htmlFor="name">

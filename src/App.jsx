@@ -29,7 +29,7 @@ function App() {
       .post("url", body)
     */
     axios
-       .post("https://products-crud.academlo.tech/products/", {userData})
+       .post(`https://products-crud.academlo.tech/products/`, userData)//user Data
        .then(()=> getData() )
        //.catch( error =>console.error(error))
 
@@ -59,7 +59,7 @@ function App() {
         .put("url", body)
     */
      axios
-        .put(`https://products-crud.academlo.tech/products/${userData.id}/`, userData )
+        .put(`https://products-crud.academlo.tech/products/${userData.id}/`, userData() )
         .then(() =>{
           getData() 
           setUserUpdate(null)
@@ -80,7 +80,7 @@ function App() {
       />
       </div>
       <br />
-      <div >
+      <div className="producto-box" >
       <ProductsList
         usersData={users}
         deleteUserAction={(id) => deleteUser(id)}
